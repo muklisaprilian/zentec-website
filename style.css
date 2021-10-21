@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat;
+  background-image: url("images/Group\ 4.svg");
+  background-size: cover;
+ /* width: 100%;
+  border: solid #5b6dcd 2px;*/
+}
+
+.header {
+   width: 100%;
+  max-width: 1277px; 
+  padding: 30px 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+   position: relative;
+  width: 100%;
+  max-width: 1277px; 
+  padding: 0 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+
+.content .textBox h2 {
+  color: #333;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.content .textBox p {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+.content .imgBox img {
+  max-width: 550px;
+}
+.nav {
+  justify-content: flex-start;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+}
+.nav li {
+  margin-left: 50px;
+}
+.nav li a {
+  text-decoration: none;
+  color: #2f2e41;
+}
+.logo {
+  display: block;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  background: #2f2e41;
+  cursor: pointer;
+  width: 162px;
+  height: 51px;
+  font-size: 19px;
+  color: #ffffff;
+}
